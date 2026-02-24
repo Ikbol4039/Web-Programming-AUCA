@@ -147,7 +147,6 @@ for i in range(3):
 # i: 1 j: 1
 # i: 2 j: 0
 # i: 2 j: 1
-
 while True:
     print("This will run forever")
     # ctrl + c что бы остановить
