@@ -150,4 +150,4 @@ for i in range(3):
 
 while True:
     print("This will run forever")
-    # ctrl + c что бы остановить 
+    # ctrl + c что бы остановить
