@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Introduction to CSS</title>
+
+    <style>
+        body {
+            background-color: lightgray;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Element Selector */
+        p {
+            color: green;
+        }
+
+        /* Class Selector */
+        .highlight {
+            background-color: lightblue;
+            font-weight: bold;
+        }
+
+        /* ID Selector */
+        #main-title {
+            color: darkblue;
+            text-align: center;
+        }
+
+        /* Color Examples */
+        .red-text {
+            color: red;
+        }
+
+        .hex-bg {
+            background-color: #ff4500;
+            color: white;
+            padding: 5px;
+        }
+
+        .rgb-text {
+            color: rgb(0, 0, 255);
+        }
+
+        .rgba-bg {
+            background-color: rgba(0, 255, 0, 0.4);
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<h1 id="main-title">Introduction to CSS</h1>
+
+<h2 style="color: red;">Inline CSS Example</h2>
+
+<p style="color: blue;">
+This paragraph uses inline CSS to change its text color to blue.
+</p>
+
+<hr>
+
+<h2>Selectors Example</h2>
+
+<p>This paragraph is styled using an element selector.</p>
+
+<p class="highlight">
+This paragraph uses a class selector with a light blue background.
+</p>
+
+<p class="highlight red-text">
+This paragraph combines multiple classes.
+</p>
+
+<hr>
+
+<h2>Working with Colors</h2>
+
+<p class="red-text">
+This paragraph uses a color name (red).
+</p>
+
+<p class="hex-bg">
+This paragraph uses a HEX background color.
+</p>
+
+<p class="rgb-text">
+This paragraph uses RGB for blue text.
+</p>
+
+<p class="rgba-bg">
+This paragraph uses RGBA for a semi-transparent green background.
+</p>
+
+<hr>
+
+<h2>Buttons Example</h2>
+
+<button style="background-color: orange; color: white; padding: 10px;">
+Inline Styled Button
+</button>
+
+</body>
+</html>
