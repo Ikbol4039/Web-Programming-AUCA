@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms & User Input in HTML</title>
+</head>
+<body>
+
+<h1>Forms & User Input in HTML</h1>
+
+<hr>
+
+<h2>1. Basic Contact Form</h2>
+
+<form action="#" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+<hr>
+
+<h2>2. Registration Form</h2>
+
+<form action="#" method="post">
+
+    <label>Full Name:</label><br>
+    <input type="text" name="fullname"><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email"><br><br>
+
+    <label>Password:</label><br>
+    <input type="password" name="password"><br><br>
+
+    <label>Age:</label><br>
+    <input type="number" name="age" min="1" max="120"><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female<br><br>
+
+    <label>Hobbies:</label><br>
+    <input type="checkbox" name="hobby" value="sports"> Sports
+    <input type="checkbox" name="hobby" value="music"> Music
+    <input type="checkbox" name="hobby" value="reading"> Reading<br><br>
+
+    <label>Profile Picture:</label><br>
+    <input type="file" name="profile"><br><br>
+
+    <input type="submit" value="Register">
+    <input type="reset" value="Reset">
+
+</form>
+
+<hr>
+
+<h2>3. Feedback Form (With Hidden Field)</h2>
+
+<form action="#" method="post">
+
+    <input type="hidden" name="page_id" value="12345">
+
+    <label>Name:</label><br>
+    <input type="text" name="name"><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email"><br><br>
+
+    <label>Feedback:</label><br>
+    <textarea name="feedback" rows="4" cols="40"></textarea><br><br>
+
+    <button type="submit">Send Feedback</button>
+
+</form>
+
+<hr>
+
+<h2>4. Order Form (Dropdown + Reset)</h2>
+
+<form action="#" method="post">
+
+    <label>Your Name:</label><br>
+    <input type="text" name="customer"><br><br>
+
+    <label>Select Product:</label><br>
+    <select name="product">
+        <option value="laptop">Laptop</option>
+        <option value="phone">Phone</option>
+        <option value="tablet">Tablet</option>
+    </select><br><br>
+
+    <label>Quantity:</label><br>
+    <input type="number" name="quantity" min="1" max="10"><br><br>
+
+    <button type="submit">Place Order</button>
+    <button type="reset">Clear Form</button>
+
+</form>
+
+<hr>
+
+<h2>Button with JavaScript Example</h2>
+
+<button onclick="alert('Hello! Form button clicked.')">
+    Click Me
+</button>
+
+</body>
+</html>
