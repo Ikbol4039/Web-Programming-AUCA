@@ -1,0 +1,56 @@
+body {
+    background-color: #f0f0f0;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+/* Heading */
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: darkblue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Font Sizes */
+.small-text {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.medium-text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.large-text {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+/* Line Height & Alignment */
+.line-height-example {
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.right-text {
+    text-align: right;
+}
+
+/* Text Shadows */
+.shadow-red {
+    text-shadow: 3px 3px 6px red;
+}
+
+.shadow-blue {
+    text-shadow: 2px 2px 5px blue;
+}
+
+.rgba-shadow {
+    text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.7);
+}
