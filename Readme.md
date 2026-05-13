@@ -68,6 +68,8 @@ Introduction-to-web-programming/
 ├── lab50
 ├── lab51
 ├── lab52
+├── Projects
+├──── URL Shortener
 └── README.md
 ```
 ## Learning Goals
@@ -77,6 +79,58 @@ Introduction-to-web-programming/
 - Add interactivity with JavaScript  
 - Build responsive layouts  
 - Practice version control with Git
+
+---
+# Notelink
+
+Notelink — это веб-приложение для создания и управления заметками с встроенным сокращением ссылок и ИИ-ассистентом.
+
+Live: [url-shortener-ymut.onrender.com](https://url-shortener-ymut.onrender.com)
+
+---
+
+## Что умеет приложение
+
+**Заметки**
+
+- Создание, редактирование и удаление заметок
+- Форматирование текста: жирный, курсив, подчёркнутый, зачёркнутый
+- Изменение размера шрифта в пикселях
+- Цвет текста и выделение
+- Списки, выравнивание, очистка форматирования
+
+**Сокращение ссылок**
+
+- Вставляешь длинную ссылку — получаешь короткую
+- Сокращённую ссылку можно скопировать или вставить прямо в заметку
+- Переадресация работает автоматически
+
+**ИИ-ассистент**
+
+- Встроен в каждую заметку отдельной вкладкой
+- Отвечает на вопросы, помогает с текстом и идеями
+- Помнит контекст разговора внутри одной сессии
+- Работает на базе Groq API (бесплатно)
+
+**Авторизация**
+
+- Регистрация и вход через логин и пароль
+- Каждый пользователь видит только свои заметки
+
+---
+
+## Стек
+
+- **Backend:** Python, Flask, PostgreSQL
+- **Frontend:** HTML, CSS, JavaScript
+- **Хостинг:** Render
+- **ИИ:** Groq API (Llama 3.3 70B)
+
+---
+
+## Видео
+
+[Смотреть демо](https://docs.google.com/videos/d/1SgHsjCQNyXGUqwVEJzxitKcZnmDYHvQqs5NEKSZ7NR0/edit?usp=sharing)
 
 ---
 
